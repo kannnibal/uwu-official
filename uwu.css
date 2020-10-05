@@ -37,6 +37,7 @@
 body {
 	background-image: url("blackgrid.png");
 	background-repeat: space;
+	background-attachment: scroll
 	font-family: 'VT323', monospace;
 	color: #ffffff;
 	text-shadow:
