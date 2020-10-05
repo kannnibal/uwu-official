@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+	background-image: url("blackgrid.png");
+	background-repeat: repeat;
+	background-color: rgba(0,0,0,0.25);
+	font-family: 'VT323', monospace;
+	color: #ffffff;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+	-webkit-animation: fadein 3s;
+	-moz-animation: fadein 3s;
+	-ms-animation: fadein 3s;
+	-o-animation: fadein 3s;
+	animation: fadein 3s;
+}
+
+pre {
+	font-size: 24px;
+	text-align: center;
+	font-family: 'VT323', monospace;
+	-webkit-animation: fadein 3s;
+	-moz-animation: fadein 3s;
+	-ms-animation: fadein 3s;
+	-o-animation: fadein 3s;
+	animation: fadein 3s;
+	background-color: black;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	font-family: 'VT323', monospace;
+	-webkit-animation: fadein 3s;
+	-moz-animation: fadein 3s;
+	-ms-animation: fadein 3s;
+	-o-animation: fadein 3s;
+	animation: fadein 3s;
+}
+
+#center {		
+	background-color: black;	   
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
+	cursor: url('nigga.cur'), default;
+	display: inline-block;
+	animation: blink 1s linear infinite alternate;
+}
+
+#marquee {
+	width: 400px;
+	overflow: hidden;
+	display: inline-block;
+	margin-bottom: -3px;
+}
+
