@@ -35,6 +35,8 @@
 }
 
 body {
+	background-image: url("bg.apng");
+	background-position: absolute;
 	font-family: 'VT323', monospace;
 	color: #ffffff;
 	text-shadow:
